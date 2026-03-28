@@ -6,7 +6,7 @@ export default function Hero() {
   return (
     <>
       <section className="hero">
-        <div style={{ color: "var(--color-accent)", width: "60px" }} className="anim anim-0">
+        <div style={{ color: "var(--color-accent)", width: "80px" }} className="anim anim-0">
           <TreeMark />
         </div>
 
@@ -56,7 +56,7 @@ export default function Hero() {
           letter-spacing: 0.15em;
           text-transform: uppercase;
           color: var(--color-primary);
-          font-size: 1.25rem;
+          font-size: 2rem;
         }
 
         .tagline {
@@ -66,7 +66,7 @@ export default function Hero() {
           letter-spacing: 0.15em;
           text-transform: uppercase;
           color: var(--color-muted);
-          font-size: 0.6rem;
+          font-size: 0.75rem;
         }
 
         .rule {
@@ -80,8 +80,8 @@ export default function Hero() {
           font-family: var(--font-sans);
           font-weight: 300;
           color: var(--color-primary);
-          font-size: 1.1rem;
-          max-width: 340px;
+          font-size: 1.5rem;
+          max-width: 420px;
           text-align: center;
           line-height: 1.6;
         }
@@ -89,7 +89,7 @@ export default function Hero() {
         .scroll-cue {
           margin-top: 3rem;
           color: var(--color-muted);
-          font-size: 0.75rem;
+          font-size: 1rem;
         }
       `}</style>
     </>
