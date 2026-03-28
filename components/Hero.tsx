@@ -53,7 +53,7 @@ export default function Hero() {
           margin-top: 1.5rem;
           font-family: var(--font-sans);
           font-weight: 300;
-          letter-spacing: 0.15em;
+          letter-spacing: 0.35em;
           text-transform: uppercase;
           color: var(--color-primary);
           font-size: 2rem;
@@ -67,6 +67,7 @@ export default function Hero() {
           text-transform: uppercase;
           color: var(--color-muted);
           font-size: 0.75rem;
+          white-space: nowrap;
         }
 
         .rule {
@@ -80,10 +81,10 @@ export default function Hero() {
           font-family: var(--font-sans);
           font-weight: 300;
           color: var(--color-primary);
-          font-size: 1.5rem;
-          max-width: 420px;
+          font-size: 1.2rem;
           text-align: center;
           line-height: 1.6;
+          white-space: nowrap;
         }
 
         .scroll-cue {
